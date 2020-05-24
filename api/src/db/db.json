@@ -1,7 +1,32 @@
 {
-  "user": {
-    "id": "jBWMVGjm50l6LGwepDoty",
-    "username": "frontendmaster"
-  },
-  "pet": []
+  "hero": [
+    {
+      "id": "zHhnUmxRXsrg_R-jiMbyE",
+      "createdAt": 1590286044323,
+      "codeName": "Supergirl",
+      "secretName": "Kara Danvers",
+      "homeBase": "National City"
+    },
+    {
+      "id": "cVtw63MRgsI32J8y47Qpo",
+      "createdAt": 1590286102791,
+      "codeName": "Green Arrow",
+      "secretName": "Oliver Queen",
+      "homeBase": "Star City"
+    },
+    {
+      "id": "iNn71eXYNb-ZOfAAW6p3Q",
+      "createdAt": 1590286119773,
+      "codeName": "The Flash",
+      "secretName": "Barry Allen",
+      "homeBase": "Central City"
+    },
+    {
+      "id": "ese075hHbHaRAScQ2NLVX",
+      "createdAt": 1590286731099,
+      "codeName": "Superman",
+      "secretName": "Clark Kent",
+      "homeBase": "Metropolis"
+    }
+  ]
 }

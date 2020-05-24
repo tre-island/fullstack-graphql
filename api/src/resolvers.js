@@ -5,19 +5,22 @@
 
 module.exports = {
   Query: {
-    
-  },
-  Mutation: {
-    
-  },
-  Pet: {
-    img(pet) {
-      return pet.type === 'DOG'
-        ? 'https://placedog.net/300/300'
-        : 'http://placekitten.com/300/300'
+    hero(_,{input},{models}){
+      return models.Hero.findOne(input)
+    },
+
+    heroes(_,{input},{models}){
+      return models.Hero.findMany(input)
     }
   },
-  User: {
+  
+  Mutation:{
+    newHero(_,{input},{models}){
+      return models.Hero.create(input)
+    }
+  },
+
+  Hero: {
     
   }
 }
